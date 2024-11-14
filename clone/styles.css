@@ -127,9 +127,9 @@ ul {
 }
 
 .products {
-    width: 965px;
+    width: fit-content;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     
     >div {
         padding: 0 22.5px;
@@ -176,11 +176,26 @@ ul {
 
     background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_MasterClosedBracket1_Monogram_May20204494_1920x1280_crop_center.jpg.webp?v=1623682600");
     background-size: cover;
+    background-position: center;
 }
 
 .product-img:hover {
     cursor: pointer;
     background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-horizontal_750x500_crop_center.jpg?v=1668446709");
+}
+
+.product-img-2 {
+    width: 336px;
+    min-height: 336px;
+
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_DialHeroBracket1_Monogram_May20204539_375e79fb-32f0-447b-b606-3dd0ac8318f6_1920x1280_crop_center.jpg.webp?v=1593651701");
+    background-size: cover;
+    background-position: center;
+}
+
+.product-img-2:hover {
+    cursor: pointer;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Consoles_DialBracket1_Monogram_May2020_4575_981a6401-f834-4094-9a6e-6cd7d0b374ca_1920x1280_crop_center.jpg.webp?v=1593651701");
 }
 
 .product-title {
