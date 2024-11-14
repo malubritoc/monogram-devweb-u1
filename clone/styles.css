@@ -1,0 +1,325 @@
+:root {
+    --primary-color: #1a2456;
+    --secondary-color: #efc2b3;
+    --focus-color: #ff8b68;
+    --bg-color: #f0efed
+}
+
+body {
+    padding: 0;
+    position: relative;
+    background-color: var(--bg-color);
+
+    font-family: "Poppins", sans-serif;
+
+    margin: 0;
+}
+
+header {
+    background-color: var(--primary-color);;
+    padding: 7.5px;
+    color: var(--secondary-color);;
+    font-size: 12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li:hover{ 
+        cursor: pointer;
+        color: var(--focus-color);
+    }
+}
+
+footer {
+    padding: 45px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+
+    li:hover{ 
+        cursor: pointer;
+        color: var(--focus-color);
+    }
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.section-title {
+    position: relative;
+    width: 100%;
+    height: 675px;
+    background-image: url("./images/pexels-cottonbro-5077038.jpg");
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-one-title-div {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+
+    z-index: 20;
+
+    
+    h1 {
+        letter-spacing: 4px;
+        font-size: 37.5px;
+        color: var(--secondary-color);
+        text-align: center;
+        font-weight: 600;
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 18.75px;
+        color: var(--secondary-color);
+        text-align: center;
+        font-weight: 300;
+        margin: 0;
+    }
+}
+
+.section-products {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding-top: 45px;
+}
+
+.pre-order-content {
+    width: 965px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    >div {
+        padding: 0 7.5px;
+        margin-bottom: 22.5px;
+    }
+
+}
+
+.products {
+    width: 965px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    >div {
+        padding: 0 22.5px;
+        margin-bottom: 22.5px;
+    }
+
+}
+
+.item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5px;
+
+}
+
+.last-item {
+    position: relative;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5px;
+}
+
+.last-product-img {
+    width: 100%;
+    height: 380px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/files/Monogram_Keyboard_Multipad-v2_1920x1300_crop_center.png.webp?v=1711651403");
+    background-size: cover;
+    background-position: center;
+}
+
+.last-product-img:hover {
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/files/Monogram_Keyboard_2_878639a5-2865-4c4f-a21e-498f3a3db3b8_750x422_crop_center.jpg?v=1712087494");
+    cursor: pointer;
+}
+
+.product-img {
+    width: 467.5px;
+    min-height: 312px;
+
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Packaging_MasterClosedBracket1_Monogram_May20204494_1920x1280_crop_center.jpg.webp?v=1623682600");
+    background-size: cover;
+}
+
+.product-img:hover {
+    cursor: pointer;
+    background-image: url("https://cdn.shopify.com/s/files/1/0974/7950/products/Everyday-Bundle-Mocks-horizontal_750x500_crop_center.jpg?v=1668446709");
+}
+
+.product-title {
+    margin: 0;
+    color: var(--primary-color);;
+    font-size: 18.75px;
+    font-weight: 600;
+}
+
+.product-sold-out {
+    font-size: 15px;
+    color: #6c757d;
+    margin: 0;
+}
+
+.product-description {
+    width: 100%;
+    font-size: 13.5px;
+    color: var(--primary-color);;
+    text-align: start;
+    margin: 0;
+}
+
+.tag-pre-order {
+    position: absolute; 
+    top: 24px; 
+    
+    padding: 7.5px 15px; 
+    margin-left: 3.75px; 
+    
+    background-color: var(--focus-color); 
+    
+    color: #212529; 
+    font-size: 12.375px; 
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/shop-banner-module.webp");
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 48px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    h1 {
+        font-size: 37.5px;
+        color: var(--primary-color);;
+        font-weight: 600;
+        margin: 0 0 15px 0;
+        text-transform: uppercase;
+    }
+
+    h2 {
+        font-size: 18.75px;
+        color: var(--primary-color);;
+        font-weight: 300;
+        margin: 0 0 15px 0;
+    }
+}
+
+.section-products {
+    padding: 45px 0;
+}
+
+.footer-list-item {
+    font-size: 13.75px;
+    font-weight: 300;
+    margin: 0 0 5.4px 0;
+}
+
+.footer-list-title {
+    font-size: 10.8px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+
+.subscribe {
+    max-width: 353px;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 13.5px;
+
+    p {
+        margin-top: 0;
+    }
+
+    input {
+        background-color: transparent;
+        border: 1px solid var(--secondary-color);
+        padding: 3.75px 7.5px;
+        margin: 0 7.5px 0 0;
+    }
+
+    button {
+        background-color: var(--secondary-color);
+        color: #212529;
+        padding: 5.625px 26.25px;
+        border-radius: 50rem;
+        margin: 0 0 0 7.5px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+    }
+}
+
+.socials-icon-div {
+    display: flex;
+    gap: 7.5px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 13.5px;
+    height: 13.5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6.75px;
+    border-radius: 100%;
+    background-color: var(--secondary-color);
+
+    svg {
+        width: 13.5px;
+        height: 13.5px;
+        
+        path {
+            fill: var(--primary-color);;
+        }
+    }
+}

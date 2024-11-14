@@ -1,0 +1,32 @@
+1) Por quê você escolheu este design e não os demais que estavam disponíveis pra escolha? Dica: Esta é uma 
+pergunta subjetiva, e não tem resposta certa ou errada. (1,0 ponto)
+
+RESPOSTA:
+Eu escolhi este design por considerá-lo de bom gosto, a combinação das cores me agradaram, bem como os 
+espaçamentos.
+
+Além disso, achei que ele tinha um nível bom de dificuldade, de forma que eu pudesse me desafiar, mas sem 
+precisar de muitos de outros artifícios, como funçoes em Javascript.
+
+-----------------------------------------------------------------------------------------------------------------
+
+2) Quais fontes de informação você usou para chegar na sua solução (vale código disponível no github, tutoriais, 
+google, chatgpt)? (1,0 ponto)
+
+RESPOSTA:
+Para chegar na solução eu usei basicamente a ferramenta de inspecionar no live view do site, mas também, para 
+reproduzir alguns comportamentos (a troca de imagens de produtos com o hover, por exemplo), eu utilizei tutoriais 
+encontrados no Google e Stackoverflow.
+
+-----------------------------------------------------------------------------------------------------------------
+
+3) Quais as dificuldades que você teve para imitar o design original? Enumere com exemplos reais de código. 
+(1,0 ponto)
+
+RESPOSTA:
+Minhas maiores dificuldades foram relacionadas a comportamentos mais dinâmicos do site, os quais, habitualmente 
+costumo utilizar Javascript para implementá-los. Exemplo disso são: os menus dropdowns e os hovers, 
+principalmente o da imagem que é trocada no hover.
+
+Além disso, uma das dificuldades que encontrei foi em relação a identificar o momento de uso de classes, id, 
+estilização inline, etc. 
